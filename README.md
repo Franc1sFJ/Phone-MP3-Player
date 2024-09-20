@@ -46,3 +46,8 @@ In this process, you can also enable/disable other settings inside and outside o
 ### Step 6: Getting sdk platform tools
 You can get the latest version of sdk platform tools from [Android Developer Studio](https://developer.android.com/tools/releases/platform-tools)
 Download sdk tools for your PC and unzip the file in a suitable location.
+
+### Step 7: Running sdk platform tools
+Head to the unzipped folder. Once you're insie the folder,
+In Windows: Go to the address bar in explorer. Click on it and type `cmd`. Press enter.
+In linux: Right click and select Open in Terminal.
