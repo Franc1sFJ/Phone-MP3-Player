@@ -51,4 +51,19 @@ Download sdk tools for your PC and unzip the file in a suitable location.
 Head to the unzipped folder. Once you're insie the folder,
 In Windows: Go to the address bar in explorer. Click on it and type `cmd`. Press enter.
 
-In linux: Right click and select Open in Terminal.
+In linux: Right click and select Open in Terminal. Run the command `adb devices`. If it says adb not found, use the following command:
+```
+sudo apt install adb
+```
+
+###  Step 8: Using adb
+adb is what we will use to remove all the unwanted and disabled apps. First, to make sure that adb works properly and that the mobile device is responsive type in:
+```
+adb devices
+```
+This should list the connected device with usb debugging. This will also give a popup on the mobile device asking whether to allow access or not. You can allow access.
+
+To see the exact edvice that you're working with, use:
+```
+adb devices -l
+```
