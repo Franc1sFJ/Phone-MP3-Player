@@ -42,3 +42,7 @@ Settings --> About Phone --> Build Number (Repeatedly tap until developer mode g
 Settings --> System --> Advanced --> Developer options --> Enable USB debugging
 
 In this process, you can also enable/disable other settings inside and outside of developer option that you think will work better for the intended use of the device.
+
+### Step 6: Getting sdk platform tools
+You can get the latest version of sdk platform tools from [Android Developer Studio](https://developer.android.com/tools/releases/platform-tools)
+Download sdk tools for your PC and unzip the file in a suitable location.
