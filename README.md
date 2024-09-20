@@ -75,7 +75,7 @@ adb shell pm list packages
 ```
 To only see the disabled packages, you can use the command:
 ```
-adb shell pm list packages
+adb shell pm list packages -d
 ```
 To uninsatll a package, run the following command:
 ```
