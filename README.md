@@ -67,3 +67,13 @@ To see the exact edvice that you're working with, use:
 ```
 adb devices -l
 ```
+
+### Step 9: Uninstalling packages
+The packages disabled in Step 4 can be completely removed using adb if that is what you prefer. To make sure you're removing the right packages, you need to know the packages. To list the packages on your device, use the command:
+```
+adb shell pm list packages
+```
+To only see the disabled packages, you can use the command:
+```
+adb shell pm list packages
+```
