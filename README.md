@@ -77,3 +77,11 @@ To only see the disabled packages, you can use the command:
 ```
 adb shell pm list packages
 ```
+To uninsatll a package, run the following command:
+```
+adb shell pm uninstall --user 0 <package name>
+```
+Replace the `<package name>` with the name of the actual package that you want to uninstall. For example:
+```
+adb shell pm uninstall --user 0 com.facebook.system
+```
