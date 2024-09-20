@@ -17,3 +17,9 @@ Things you require:
 + Developer mode enabled
     + USB debugging turned on
 + sdk platform tools on your PC
+
+## How to go about the process
+
+### Step 1: Factory Reset
+Settings --> System --> Advanced --> Reset options --> Erase all data (factory rest)
+    This resets your phone and removes all existing data. So, **make sure to backup all necessary files** before this process.
