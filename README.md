@@ -77,6 +77,10 @@ To only see the disabled packages, you can use the command:
 ```
 adb shell pm list packages -d
 ```
+To make sure, you're removing the right packages, you might need some help if the package names are not obvious. In this case, you can get the help of third party apps like [Package Name Viewer](https://play.google.com/store/apps/details?id=com.csdroid.pkg&pcampaignid=web_share).
+
+If you have qualms with pre-installed google apps on your device, you can also refer to [Petarov's Repository](https://github.com/petarov/google-android-app-ids). This has a compilation of almost all google app IDs.
+
 To uninsatll a package, run the following command:
 ```
 adb shell pm uninstall --user 0 <package name>
